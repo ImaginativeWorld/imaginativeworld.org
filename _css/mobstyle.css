@@ -1,0 +1,8 @@
+@charset "utf-8";
+nav {
+	position: relative;
+	border-bottom-color: #EBEBEB;
+}
+.header-gap {
+	height: 0px;
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /_images/
+Disallow: /_js/
+Disallow: /_css/
+Disallow: /shohag/
+Disallow: /blog/
+Disallow: /community/
