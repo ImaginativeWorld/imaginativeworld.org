@@ -1,87 +1,11 @@
-<!doctype html>
-<html><!-- InstanceBegin template="/__Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
-
-<!--
-                    ____               _______           ___
- | |\    /|   /\   |    | | |\  |   /\    |    | \    / |
- | | \  / |  /__\  |  __  | | \ |  /__\   |    |  \  /  |___
- | |  \/  | /    \ |____| | |  \| /    \  |    |   \/   |___
- 				               ___    ___        ___
-				\    /\    /  /   \  |   \ |    |   \
-				 \  /  \  /  |     | |___/ |    |    |
-				  \/    \/    \___/  |   \ |___ |___/ .ORG
-
-   B   E         I   M   A   G   I   N   A   T   I   V   E
-
-
-Hi there, Assalamu Aalaikum, peace to you,
-
-We are very appreciated if you give us your thoughtful and imaginative feedbacks.
-That will help us to give you better things.. :)
-
-Give your all kinds of feedbacks here:
-http://blog.imaginativeworld.org/feedback
-
-Thanks in advance.
-
-******************************
-Coded by:
-	Md. Mahmudul Hasan Shohag
-    shohag.imaginativeworld.org
-Build Version: 1.5
-Build Date: 14 Aug 2014
--->
-
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<!-- InstanceBeginEditable name="doctitle" -->
+<?php include( '../../../_inc/header_a.php'); ?>
 <title>Imaginative World | আইডব্লিউ শাটডাউন টাইমার</title>
 <meta name="keywords" content="iw shutdown timer, আইডব্লিউ শাটডাউন টাইমার, reminder, রিমাইন্ডার, stop watch, স্টপ ওয়াচ, বন্ধ ঘড়ি" />
-<!-- InstanceEndEditable -->
-<meta name="description" content="Imaginative World is a Bangladeshi software developer group, developing free, open source and Bangla software. Some popular softs are Shadhin Ovidhan, Shomoy Kothok and IW Shutdown Timer.">
-<meta name="Author" content="Md. Mahmudul Hasan Shohag">
-<meta name="robots" content="index,follow">
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link href="/_css/style.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-<!-- Phone -->
-<link href="../../../_css/mobstyle.css" rel="stylesheet" type="text/css" media="only screen and (max-width:320px)">
-<!-- Tablet -->
-<link href="../../../_css/tabstyle.css" rel="stylesheet" type="text/css" media="only screen and (min-width:321px) and (max-width:768px)">
-<!-- Desktop -->
-<link href="../../../_css/deskstyle.css" rel="stylesheet" type="text/css" media="only screen and (min-width:769px)">
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script type="text/javascript" src="/_js/feed.js"></script>
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
-</head>
-<body>
-<nav>
-  <div class="fixed-width div-center">
-    <div id="logo">
-      <h1>Imaginative World</h1>
-      <div id="subtitle">
-        <h2>Be imaginative</h2>
-      </div>
-    </div>
-    <div id="topmenu">
-      <ul id="headermenu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/products">Products</a></li>
-        <li><a href="/volunteer">Volunteer</a></li>
-        <li><a href="http://blog.imaginativeworld.org">Blog</a></li>
-        <li><a href="http://community.imaginativeworld.org">Community</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Header Things End here --> 
-<!-- InstanceBeginEditable name="bodycontent" -->
+<?php include( '../../../_inc/header_b.php'); ?>
+<!--Everything start from here-->
 <div class="header-gap"></div>
 <div class="content fixed-width">
-  <div class="content">
+  <div class="content bn-text">
     <div class="post-title">
       <h2>আইডব্লিউ শাটডাউন টাইমার</h2><p class="title-lng-link"><a href="/products/iw-shutdown-timer">Read this topic in English</a></p>
     </div>
@@ -106,14 +30,14 @@ Build Date: 14 Aug 2014
       <p>ধরুন আপনি ছোট কোন কাজে বাইরে যাচ্ছেন, কিছুক্ষন পর আবার ফিরবেন। তাই চাচ্ছেন কম্পিউটার বন্ধ না করতে। কিন্তু আপনার আসতে দেরিও হতে পারে। তাই তখন আপনি শাটডাউন টাইমার চালু করে দিতে পারেন। এতে নির্দিষ্ট সময়ে আপনি না এলেও কম্পিউটার সয়ংক্রিয় বন্ধ হবে। আবার ধরুন আপনি কোন কারনে বাইরে যাবেন। কম্পিউটারে বড় কোন কাজ যেমনঃ ভিডিও কনভার্ট, ডিফ্র্যাগমেন্ট ইত্যাদি করতে দিয়েছেন। কাজ শেষ হতে বেশী সময় লাগবে। আপনার সেই সফটওয়ারটিতে কাজ শেষ হলে সয়ংক্রিয় শাটডাউনের অপশন নেই। তখন আই-ডব্লিউ শাটডাউন টাইমার ব্যবহার করতে পারেন। আবার অনেকে রাতে ডাউনলোড দিয়ে ঘুমাতে চলে যান। তখন আপনি এ সফটওয়্যারটি ব্যবহার করতে পারেন। আনুমানিক কয়টাতে কাজ শেষ হতে পারে তা হিসাব করে টাইমার চালু করে দিন। বাস! আপনাকে আর কিছু করতে হবে না। সময় হলে টাইমার নিজে নিজে কম্পিউটার বন্ধ করে দেবে।</p>
       <div class="post-title medium-font">বৈশিষ্ট্য সমূহ</div>
       <ul class="post-body">
-        <li>আকর্ষণীয় ইউজার ইন্টারফেস। <b class="attrnew">new</b></li>
+        <li>আকর্ষণীয় ইউজার ইন্টারফেস। <span class="attrnew"></span></li>
         <li>সহজ ব্যবহার।</li>
-        <li><strong>Time Based</strong> এবং <strong>Stop-watch Based</strong> বৈশিষ্ট্য <b class="attrnew">new</b></li>
-        <li><strong>Shutdown</strong>, <strong>Hibernate</strong>, <strong>Restart</strong>, <strong>Log off/Sign out</strong> এবং <strong>Lock</strong> অপশন <b class="attrnew">new</b></li>
-        <li><strong>Reminder</strong> <b class="attrnew">new</b></li>
-        <li>সয়ংক্রিয় আপডেট পরীক্ষা <b class="attrnew">new</b></li>
+        <li><strong>Time Based</strong> এবং <strong>Stop-watch Based</strong> বৈশিষ্ট্য <span class="attrnew"></span></li>
+        <li><strong>Shutdown</strong>, <strong>Hibernate</strong>, <strong>Restart</strong>, <strong>Log off/Sign out</strong> এবং <strong>Lock</strong> অপশন <span class="attrnew"></span></li>
+        <li><strong>Reminder</strong> <span class="attrnew"></span></li>
+        <li>সয়ংক্রিয় আপডেট পরীক্ষা <span class="attrnew"></span></li>
         <li><strong>লাস্ট ওয়ার্নিং উইন্ডো™ </strong> ফাংশন</li>
-        <li>আকর্ষনীয় ডেস্কটপ গ্যাজেট <b class="attrnew">new</b></li>
+        <li>আকর্ষনীয় ডেস্কটপ গ্যাজেট <span class="attrnew"></span></li>
       </ul>
       <p>আরো অনেক কিছু...</p>
       <div class="post-title medium-font">সমর্থিত ওএস</div>
@@ -131,66 +55,5 @@ Build Date: 14 Aug 2014
   </div>
 </div>
 <div class="divider"></div>
-<!-- InstanceEndEditable -->
-<div class="bg-footer">
-  <div class="content" id="footer-block">
-    <div class="content fixed-width">
-      <div class="footercolumn firstcolumn">
-        <div class="footer-box-title center-text">PRODUCTS</div>
-        <div class="footer-box-text">
-          <ul class="big-font">
-            <li><a href="/products/shadhin-ovidhan">Shadhin Ovidhan</a></li>
-            <li><a href="/products/shomoy-kothok">Shomoy Kothok</a></li>
-            <li><a href="/products/iw-shutdown-timer">IW Shutdown Timer</a></li>
-            <li><a href="/products/text-to-voice-converter">Text to Voice Converter</a></li>
-            <li><a href="/products/#tools">More Tools</a></li>
-          </ul>
-          <div class="medium-gap"></div>
-          <div class="medium-gap"></div>
-          <div class="footer-box-title center-text">MENU</div>
-          <div class="footer-box-text">
-            <ul class="big-font">
-              <li><a href="/">Home</a></li>
-              <li><a href="/products/">Products</a></li>
-              <li><a href="/volunteer/">Volunteer</a></li>
-              <li><a href="http://blog.imaginativeworld.org">Blog</a></li>
-              <li><a href="http://community.imaginativeworld.org">Community</a></li>
-              <li><a href="/about/">About</a></li>
-              <li><a href="/sitemap/">Sitemap</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footercolumn">
-        <div class="footer-box-title center-text">WE ARE ON</div>
-        <div class="footer-box-text footer-we-are-on">
-          <ul class="big-font">
-            <li class="facebook"><a href="https://www.facebook.com/Imaginative.World.BD">Facebook</a></li>
-            <li class="twitter"><a href="https://twitter.com/IW_BD">Twitter</a></li>
-            <li class="gplus"><a href="https://plus.google.com/+ImaginativeWorldOrgBD">Google+</a></li>
-            <li class="youtube"><a href="https://www.youtube.com/user/ImaginativeWorldBD">Youtube</a></li>
-            <li class="github"><a href="https://github.com/ImaginativeWorld">Github</a></li>
-          </ul>
-        </div>
-        <div class="medium-gap"></div>
-        <div class="medium-gap"></div>
-        <div class="footer-box-title center-text">HOSTING SUPPORT</div>
-        <div class="footer-box-text center-text">
-          <p class="big-font">Dhrubok All Rounder</p>
-          <p class="medium-font"><a href="http://service.luckyfm.info/">service.luckyfm.info</a></p>
-        </div>
-      </div>
-      <div class="footercolumn center-text">
-        <div class="footer-box-title">NEWS</div>
-        <div class="footer-box-feed footer-box-text">
-          <div id="news-feed">Loading...</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="footerline content full-wide cur-default">
-  <p>Copyright © <a href="http://imaginativeworld.org">Imaginative World</a>. All rights reserved. <abbr title="Created with <3 and HTML5"><span class="fa html5 fa-html5"></span></abbr> Coded by <a href="http://shohag.imaginativeworld.org">Md. Mahmudul Hasan Shohag</a></p>
-</div>
-</body>
-<!-- InstanceEnd --></html>
+<!--Footer start from here-->
+<?php include( '../../../_inc/footer.php'); ?>

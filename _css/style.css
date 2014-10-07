@@ -1,30 +1,37 @@
 @charset "utf-8";
+/* Phone */
+@import url("mobstyle.css") only screen and (max-width:320px);
+/* Tablet */
+@import url("tabstyle.css") only screen and (min-width:321px) and (max-width:768px);
+/* Desktop */
+@import url("deskstyle.css") only screen and (min-width:769px);
 /*
  * Noto Sans Bengali (Bengali) http://www.google.com/fonts/earlyaccess
- * Bangla Range (source: http://www.unicode.org/charts/PDF/U0980.pdf‎‎)
  */
 @font-face {
 	font-family: 'Noto Sans Bengali';
 	font-style: normal;
 	font-weight: 400;
-	src: url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.eot);
-	src: url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.eot?#iefix) format('embedded-opentype'),  url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.woff2) format('woff2'),  url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.woff) format('woff'),  url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.ttf) format('truetype');
+	src: url(http://fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.eot);
+	src: url(http://fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Regular.ttf) format('truetype');
  unicode-range: U+0980-09FF;
 }
 @font-face {
 	font-family: 'Noto Sans Bengali';
 	font-style: normal;
 	font-weight: 700;
-	src: url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.eot);
-	src: url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.eot?#iefix) format('embedded-opentype'),  url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.woff2) format('woff2'),  url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.woff) format('woff'),  url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.ttf) format('truetype');
-unicode-range: U+0980-09FF;
+	src: url(http://fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.eot);
+	src: url(http://fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansbengali/v3/NotoSansBengali-Bold.ttf) format('truetype');
+ unicode-range: U+0980-09FF;
 }
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansbengali.css);*/
 @font-face {
 	font-family: 'FontAwesome';
 	src: url('/shohag/_css/fonts/fontawesome-webfont.eot?v=4.1.0');
 	src: url('/shohag/_css/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('/shohag/_css/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('/shohag/_css/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('/shohag/_css/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
+	unicode-range: U+F000-F8FF;
 }
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -34,16 +41,16 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, abbr, add
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
-	font-family: 'Noto Sans Bengali', 'Open Sans', sans-serif;
-	font-weight: normal;
+	font-family: 'Noto Sans Bengali', 'Open Sans', 'FontAwesome', sans-serif;
 }
 html {
+	font-weight: normal;
 	min-width: 768px;
 	font-size: 16px;
 }
 a, p, span, strong, ul, li, h1, h2, h3, img {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 }
 p, span, ul, li {
 	color: #6A6767;
@@ -84,25 +91,18 @@ a:hover {
 	text-decoration: underline;
 }
 a img, a:visited img {
-	padding: 5px;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 5px solid #67AA00;
-	border-radius: 10px;
 	transition: all 0.2s ease-in-out 0s;
 	-webkit-transition: all 0.2s ease-in-out 0s;
 	-moz-transition: all 0.2s ease-in-out 0s;
 	-o-transition : all 0.2s ease-in-out 0s;
 }
 a:hover img {
-	box-shadow: 0px 0px 7px #999999;
-	-webkit-box-shadow: 0px 0px 7px #999999;
-	-moz-box-shadow : 0px 0px 7px #999999;
+	box-shadow: 0px 0px 10px #999999;
+	-webkit-box-shadow: 0px 0px 10px #999999;
+	-moz-box-shadow : 0px 0px 10px #999999;
 }
 abbr {
-	border-bottom: 1px dotted #000;
-	cursor: help;
+	border: 0;
 }
 ul {
 	padding-left: 35px;
@@ -154,7 +154,7 @@ blockquote p:after {
 }
 blockquote:before {
 	position: relative;
-	font-family: 'FontAwesome';
+	//font-family: 'FontAwesome';
 	font-size: 3em;
 	color: rgba(0,0,0, .25);
 	content: "";
@@ -168,6 +168,15 @@ blockquote span {
 }
 strong {
 	color: #333;
+}
+/*
+ * Text Selection Style
+ * -----------------------------------------------------------------------------
+ */
+::selection {
+	background: #508400;
+	color: #fff;
+	text-shadow: none;
 }
 /**************************************************************
 						Needed
@@ -308,9 +317,9 @@ nav {
 	clear: both;
 	height: 50px;
 	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #E5E5E5;
@@ -318,12 +327,12 @@ nav {
 	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow : 0px 0px 5px rgba(0, 0, 0, 0.1);
 	background-color: rgba(255, 255, 255, 0.95);
-	padding: 0;
+	padding: 0px;
 	z-index: 1;
 }
 #logo {
 	margin-top: 2px;
-	padding: 0;
+	padding: 0px;
 	margin-left: 10px;
 	line-height: 30px;
 	height: 30px;
@@ -333,17 +342,18 @@ nav {
 }
 #logo h1 {
 	position: absolute;
-	top: -3000px;
+	top: -2000px;
 }
 #logo #subtitle h2 {
 	width: 250px;
 	text-transform: uppercase;
-	padding: 0 3px;
+	padding: 0px;
 	margin-top: 30px;
 	letter-spacing: 10px;
 	font-size: 1em;
 	text-align: center;
-	color: #777;
+	font-weight: bold;
+	color: #999;
 	text-shadow: 1px 1px 1px rgba(0,0,0, .1);
 }
 .header-title-divider {
@@ -357,7 +367,7 @@ nav {
 	line-height: 15px;
 	float: left;
 	height: 15px;
-	padding-left: 0;
+	padding-left: 0px;
 	font-size: 12px;
 }
 #topmenu {
@@ -366,9 +376,8 @@ nav {
 	margin-right: 10px;
 }
 ul#headermenu {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 0px;
+	padding: 0px;
 	line-height: 50px;
 	height: 50px;
 }
@@ -377,18 +386,21 @@ ul#headermenu li {
 }
 ul#headermenu li a {
 	border-top: 3px solid transparent;
-	padding: 12px 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 	color: #000;
-	transition: all 0.2s ease-in-out 0s;
-	-webkit-transition: all 0.2s ease-in-out 0s;
-	-moz-transition: all 0.2s ease-in-out 0s;
-	-o-transition : all 0.2s ease-in-out 0s;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	transition: border-top-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+	-webkit-transition: border-top-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+	-moz-transition: border-top-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+	-o-transition : border-top-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
 	font-size: .9em;
 }
 ul#headermenu li a.active, ul#headermenu li a:hover {
 	border-top-color: #67AA00;
 	text-decoration: none;
-	color: #67AA00;
+	color: #508400;
 }
 /**************************************************************
 						Contents
@@ -398,13 +410,13 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	overflow: auto;
 	margin: 0 auto;
 	margin-top: 20px;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	padding: 5px;
 }
 #welcome.content {
-	margin-top: 0;
-	padding-top: 0;
-	padding-bottom: 0;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	min-height: 600px;
 }
 .content #footer-block {
@@ -412,7 +424,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 }
 #footer-block {
 	background: linear-gradient(to bottom, #C8C8C8 0%, rgba(234, 234, 234, 0) 1%, rgba(234, 234, 234, 0) 99%, #C8C8C8 100% );
-	margin: 0;
+	margin: 0px;
 }
 #footer-block p, #footer-block a {
 	text-shadow: 1px 1px 0px rgba(255,255,255,1);
@@ -453,7 +465,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 }
 .clear {
 	clear: both;
-	height: 0;
+	height: 0px;
 	display: block;
 	overflow: hidden;
 }
@@ -467,8 +479,8 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	padding: 3px;
 }
 .productdl {
-	margin-right: 0;
-	margin-left: 0;
+	margin-right: 0px;
+	margin-left: 0px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -506,9 +518,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	text-decoration: none;
 	border-bottom-width: 3px;
 }
-/**************************************************************
-						About Product 
-***************************************************************/
+/*************************** About Product ***************************/
 .list-no-style {
 	list-style: none;
 }
@@ -622,9 +632,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	text-decoration: none;
 	border-bottom-width: 3px;
 }
-/**************************************************************
-						Announcement
-***************************************************************/
+/*************************** Announcement ***************************/
 .announcement {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -635,9 +643,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	border-top-color: #F0F0F0;
 	border-bottom: 2px solid #F0F0F0;
 }
-/**************************************************************
-							Footer
-***************************************************************/
+/*************************** Footer ***************************/
 .footercolumn {
 	float: Left;
 	width: 30%;
@@ -677,7 +683,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	-webkit-border-radius : 50%;
 }
 /**************************************************************
-			        	    Feed
+			            Feed
 **************************************************************/
 #news-feed {
 	margin-left: 25px;
@@ -690,7 +696,6 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 }
 .footer-box-feed span {
 	font-size: 8px;
-	font-family: 'Open Sans', sans-serif;
 }
 .footer-box-feed span:before {
 	content: "(";
@@ -698,34 +703,28 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 .footer-box-feed span:after {
 	content: ")";
 }
-/**************************************************************
-					Copyright
-***************************************************************/
+/*************************** Bottom Copyright Line ***************************/
 .footerline {
 	text-align: center;
-	margin: 0;
+	margin: 0px;
 	padding: 5px;
 	color: #666;
 }
 .gf-author, .gf-spacer, .gf-relativePublishedDate {
 	font-size: 12px;
 }
-/**************************************************************
-							Extra
-***************************************************************/
+/*************************** Extras ***************************/
 .divider {
 	height: 2px;
 	width: 100%;
 	display: block;
-	margin: 0;
+	margin: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 0;
+	padding: 0px;
 	background-color: #F0F0F0;
 }
-/**************************************************************
-						Post Things
-***************************************************************/
+/*************************** Post Things ***************************/
 .post-title {
 	color: #666;
 	padding: 5px;
@@ -756,7 +755,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	padding-right: 25px;
 }
 .attrnew, .attrchange, .attrimproved, .opensource {
-	padding: 0;
+	padding: 0px;
 	padding-left: 5px;
 	padding-right: 5px;
 	text-shadow: 1px 1px 0px #FFF;
@@ -767,9 +766,6 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	font-size: .8em;
 	font-weight: bold;
 }
-/**************************************************************
-						Attributes
-***************************************************************/
 .attrnew {
 	background-color: #FFEDCF;
 	border-right: 3px solid #F90;
@@ -806,7 +802,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	padding: 2px;
 }
 /************************************************************
- 						About page
+ 						about page
 ************************************************************/
 .iw-logo {
 	height: 200px;
@@ -831,7 +827,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	border: none;
 	background-color: transparent;
 	margin-top: 60px;
-	border-radius: 0;
+	border-radius: 0px;
 }
 /************************************************************
 					Profile Box
@@ -854,15 +850,15 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.5);
 }
 .profile-box-picture img {
-	padding: 0;
+	padding: 0px;
 	margin: 5px;
 	border: 5px solid #CCC;
 	border-radius: 50%;
 }
 .profile-box-text {
 	padding: 0px 5px;
-	border: 0;
-	margin: 0;
+	border: 0px;
+	margin: 0px;
 }
 .profile-box-text p {
 	font-size: .8em;
@@ -877,7 +873,7 @@ ul#headermenu li a.active, ul#headermenu li a:hover {
 	padding-bottom: 30px;
 }
 .social {
-	margin: 0;
+	margin: 0px;
 	margin-top: 2em;
 }
 .social p span:before {
@@ -988,6 +984,24 @@ ul.social li a {
 	background-image: url(/_images/bg-footer.png);
 	background-attachment: fixed;
 }
+/**************** Announcement Message ****************/
+div.announcement-msg {
+	position: relative;
+	top: 55px;
+	width: 95%;
+	border: 2px solid #ffc800;
+	margin: 0 auto;
+	background-color: rgba(255,250,225,.9);
+	border-radius: 10px;
+	text-align: center;
+}
+div.announcement-msg.infooter {
+	top: 0;
+	margin-bottom: 10px;
+}
+div.announcement-msg p {
+	color: #555;
+}
 /**************************************************************
 						Font Awesome
 **************************************************************/
@@ -997,6 +1011,204 @@ ul.social li a {
  */
 /* FONT PATH
  * -------------------------- */
-.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-fw{width:1.28571429em;text-align:center}.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.fa-ul>li{position:relative}.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}.fa-li.fa-lg{left:-1.85714286em}.fa-border{padding:.2em .25em .15em;border:.08em solid #eee;border-radius:.1em;-webkit-border-radius:.1em}.pull-right{float:right}.pull-left{float:left}.fa.pull-left{margin-right:.3em}.fa.pull-right{margin-left:.3em}.fa-spin{-webkit-animation:spin 2s infinite linear;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;animation:spin 2s infinite linear}@-moz-keyframes spin{0%{-moz-transform:rotate(0deg)}100%{-moz-transform:rotate(359deg)}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg)}}@-o-keyframes spin{0%{-o-transform:rotate(0deg)}100%{-o-transform:rotate(359deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.fa-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);-webkit-transform:scale(-1,1);-moz-transform:scale(-1,1);-ms-transform:scale(-1,1);-o-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);-webkit-transform:scale(1,-1);-moz-transform:scale(1,-1);-ms-transform:scale(1,-1);-o-transform:scale(1,-1);transform:scale(1,-1)}.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}.fa-stack-1x{line-height:inherit}.fa-stack-2x{font-size:2em}.fa-inverse{color:#fff}.fa-facebook:before{content:"\f09a"}.fa-twitter:before{content:"\f099"}.fa-google-plus:before{content:"\f0d5"}.fa-youtube:before{content:"\f167"}.fa-github:before{content:"\f09b"}.fa-html5:before{content:"\f13b"}.fa-css3:before{content:"\f13c"}.fa-heart:before{content:"\f004"}.fa-smile-o:before{content:"\f118"}
+.fa {
+	display: inline-block;
+	//font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+	font-size: 1.33333333em;
+	line-height: 0.75em;
+	vertical-align: -15%;
+}
+.fa-2x {
+	font-size: 2em;
+}
+.fa-3x {
+	font-size: 3em;
+}
+.fa-4x {
+	font-size: 4em;
+}
+.fa-5x {
+	font-size: 5em;
+}
+.fa-fw {
+	width: 1.28571429em;
+	text-align: center;
+}
+.fa-ul {
+	padding-left: 0;
+	margin-left: 2.14285714em;
+	list-style-type: none;
+}
+.fa-ul > li {
+	position: relative;
+}
+.fa-li {
+	position: absolute;
+	left: -2.14285714em;
+	width: 2.14285714em;
+	top: 0.14285714em;
+	text-align: center;
+}
+.fa-li.fa-lg {
+	left: -1.85714286em;
+}
+.fa-border {
+	padding: .2em .25em .15em;
+	border: solid 0.08em #eeeeee;
+	border-radius: .1em;
+	/* Changed */
+	-webkit-border-radius : .1em;
+}
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+.fa.pull-left {
+	margin-right: .3em;
+}
+.fa.pull-right {
+	margin-left: .3em;
+}
+.fa-spin {
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+ 0% {
+ -moz-transform: rotate(0deg);
+}
+ 100% {
+ -moz-transform: rotate(359deg);
+}
+}
+@-webkit-keyframes spin {
+ 0% {
+ -webkit-transform: rotate(0deg);
+}
+ 100% {
+ -webkit-transform: rotate(359deg);
+}
+}
+@-o-keyframes spin {
+ 0% {
+ -o-transform: rotate(0deg);
+}
+ 100% {
+ -o-transform: rotate(359deg);
+}
+}
+@keyframes spin {
+ 0% {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 100% {
+ -webkit-transform: rotate(359deg);
+ transform: rotate(359deg);
+}
+}
+.fa-rotate-90 {
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.fa-rotate-180 {
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.fa-rotate-270 {
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+	-webkit-transform: scale(-1, 1);
+	-moz-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+	-webkit-transform: scale(1, -1);
+	-moz-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	transform: scale(1, -1);
+}
+.fa-stack {
+	position: relative;
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	vertical-align: middle;
+}
+.fa-stack-1x, .fa-stack-2x {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.fa-stack-1x {
+	line-height: inherit;
+}
+.fa-stack-2x {
+	font-size: 2em;
+}
+.fa-inverse {
+	color: #ffffff;
+}
+/* Icons */
+.fa-facebook:before {
+	content: "\f09a";
+}
+.fa-twitter:before {
+	content: "\f099";
+}
+.fa-google-plus:before {
+	content: "\f0d5";
+}
+.fa-youtube:before {
+	content: "\f167";
+}
+.fa-github:before {
+	content: "\f09b";
+}
+.fa-html5:before {
+	content: "\f13b";
+}
+.fa-css3:before {
+	content: "\f13c";
+}
+.fa-heart:before {
+	content: "\f004";
+}
+.fa-smile-o:before {
+	content: "\f118";
+}
 /**************************************************************
 **************************************************************/

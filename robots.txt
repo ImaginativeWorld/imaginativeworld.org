@@ -5,3 +5,6 @@ Disallow: /_css/
 Disallow: /shohag/
 Disallow: /blog/
 Disallow: /community/
+Disallow: /code/
+Disallow: /studymaniac/
+Disallow: /update/
