@@ -30,9 +30,10 @@ How to
 Folders
 -------
 
-- **__Templates\index.dwt** -Dreamweaver Template file: Change Header and Footer from here.
+
 - **_css** -All CSS files.
 - **_images** -All image files.
+- **_inc** -Header and Footer files.
 - **_js** -All Javascripts.
 
 Google Feed JS
@@ -50,7 +51,7 @@ Enjoy.. :)
 Author
 ------
 
- - **E-mail:** [shohag_iw@yahoo.com][2]
+ - **E-mail:** [shohag@imaginativeworld.org][2]
  - **Website:** http://shohag.imaginativeworld.org
 
 
