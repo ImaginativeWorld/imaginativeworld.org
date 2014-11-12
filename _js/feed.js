@@ -17,7 +17,7 @@ function feedLoaded(result) {
 
 function OnLoad() {
   var feed = new google.feeds.Feed("http://blog.imaginativeworld.org/feed/");
-  feed.setNumEntries(5);
+  feed.setNumEntries(6);
   feed.load(feedLoaded);
 }
 

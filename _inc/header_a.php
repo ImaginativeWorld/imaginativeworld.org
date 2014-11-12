@@ -25,8 +25,8 @@ http://blog.imaginativeworld.org/feedback
 Thanks in advance.
 
 ******************************
-Build Version: 1.6
-Build Date: 08 Oct 2014
+Build Version: 1.7
+Build Date: 13 Nov 2014
 -->
 
 <head>

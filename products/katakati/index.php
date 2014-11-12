@@ -29,7 +29,7 @@
       <div class="post-title medium-font">সমর্থিত ওএস</div>
       <p>Windows XP, Vista, 7 & 8/8.1 (32bit & 64bit)</p>
       <div class="post-title medium-font">রানটাইম</div>
-      <p><strong>IW Shutdown Timer</strong> চালাতে <strong>ডটনেট ফ্রেমওয়ার্ক ৪ ক্লায়েন্ট প্রোফাইল</strong> প্রয়োজন হবে। যদি আপনার না থাকে তাহলে নিচের লিঙ্ক থেকে ডাউনলোড করে নিন।</p>
+      <p><strong>কাটাকাটি</strong> চালাতে <strong>ডটনেট ফ্রেমওয়ার্ক ৪ ক্লায়েন্ট প্রোফাইল</strong> প্রয়োজন হবে। যদি আপনার না থাকে তাহলে নিচের লিঙ্ক থেকে ডাউনলোড করে নিন।</p>
       <p><strong>৩২ বিটের জন্যঃ</strong> (28.8 MB)</p>
       <p class="center-text"><a href="http://download.microsoft.com/download/3/1/8/318161B8-9874-48E4-BB38-9EB82C5D6358/dotNetFx40_Client_x86.exe" target="_blank"><img alt="Download dotNET Fremework" src="/_images/dotnet.png" width="160" height="50" /></a></p>
       <p><strong>৬৪ বিটের জন্যঃ</strong> (41.0 MB)</p>

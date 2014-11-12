@@ -1,6 +1,6 @@
 <?php include( '_inc/header_a.php'); ?>
 <title>Imaginative World</title>
-<meta name="keywords" content="imaginative world,ইমাজিনেটিভ ওয়ার্ল্ড" />
+<meta name="keywords" content="imaginative world,ইমাজিনেটিভ ওয়ার্ল্ড,imaginative world bangladesh,ইমাজিনেটিভ ওয়ার্ল্ড বাংলাদেশ" />
 <?php include( '_inc/header_b.php'); ?>
 <!--Everything start from here-->
 <div id="welcome" class="align-middle full-height bg-001 content full-wide">

@@ -11,7 +11,7 @@
     <div id="post-title"><h2>Opps! 404 not found!</h2></div>
     <!--    <div id="post-pic">post pic</div>-->
     <div id="post-details">
-      <p>Sorry, your desire thing not found! Check your URL and try again.</p>
+      <p>We're sorry, the page you requested was not found on the server. Please double check your URL and try again.</p>
       <br />
       <p>You have also a search option below:</p>
       <br />

@@ -1,6 +1,6 @@
 <?php include( '../_inc/header_a.php'); ?>
 <title>Imaginative World | Sitemap</title>
-<meta name="keywords" content="Imaginative World, ইমাজিনেটিভ ওয়ার্ল্ড" />
+<meta name="keywords" content="Imaginative World sitemap,ইমাজিনেটিভ ওয়ার্ল্ড সাইটম্যাপ" />
 <?php include( '../_inc/header_b.php'); ?>
 <!--Everything start from here-->
 <div class="header-gap"></div>
@@ -12,7 +12,7 @@
     <div class="post-details big-font">
       <p><a href="/">Home</a></p>
       <div class="site-map-title">
-        <p><a href="/products/index.php">Products</a></p>
+        <p><a href="/products/">Products</a></p>
         <div class="site-map-title">
           <p><a class="bn-text" href="/products/shadhin-ovidhan/">স্বাধীন অভিধান</a></p>
           		<div class="site-map-title">
@@ -29,10 +29,11 @@
           <p><a href="/products/text-to-voice-converter/">Text to Voice Converter</a></p>
           <p><a class="bn-text" href="/products/katakati/">কাটাকাটি (Tic-tac-toe)</a></p>
         </div>
-        <p><a href="/volunteer/index.php">Volunteer</a></p>
+        <p><a href="/volunteer/">Volunteer</a></p>
+        <p><a href="http://code.imaginativeworld.org">Code</a></p>
         <p><a href="http://blog.imaginativeworld.org">Blog</a></p>
         <p><a href="http://community.imaginativeworld.org">Community</a></p>
-        <p><a href="/about/index.php">About</a></p>
+        <p><a href="/about/">About</a></p>
       </div>
     </div>
   </div>

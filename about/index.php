@@ -24,12 +24,12 @@
         </div>
       </div>
       <div class="post-title medium-font">join with us</div>
-      <p>Are you an opensource software developer? Or you have some imaginative ideas? Then join with us!<br>
-        Contact with us by <a href="http://blog.imaginativeworld.org/feedback/" target="_blank">Feedback Form</a>.</p>
-      <p>What we do for you? Nice question! We do below thing for you:</p>
+      <p>Are you an open-source software developer? Or you have some imaginative idea? Then join with us!<br>
+        Contact with us with <a href="http://blog.imaginativeworld.org/feedback/" target="_blank">Feedback Form</a>.</p>
+      <p>What we will do for you? Nice question! We will help you to do below thing:</p>
       <ul class="post-body">
         <li>Spread your imaginative ideas (we recommend computer related ideas) through our blog.</li>
-        <li>Get a featured page for your opensource software.</li>
+        <li>Get a featured page for your open-source software.</li>
         <li>Need something more? Just tell us.</li>
       </ul>
       <div class="post-title medium-font">contact with us</div>
@@ -63,12 +63,10 @@
         </ul>
       </div>
       <div class="post-title medium-font">About site</div>
-      <div class="center-text medium-font">
-        <p>Coded by <a href="http://shohag.imaginativeworld.org">Md. Mahmudul Hasan Shohag</a>.</p>
-        <br>
+      <div class="center-text medium-font"> <br>
         <p class="big-font cur-default">Made with <abbr title="HTML5"><span class="fa html5 fa-html5"></span></abbr>, <abbr title="CSS3"><span class="fa css3 fa-css3"></span></abbr> and <abbr title="Love"><span class="fa heart fa-heart"></span></abbr>.</p>
         <br>
-        <p>So use the latest browsers for the latest technology.. <span class="fa fa-smile-o"></span></p>
+        <p>You can find website full source-code in <a href="https://github.com/ImaginativeWorld/imaginativeworld.org" target="_blank">GitHub</a>.</p>
       </div>
     </div>
   </div>
