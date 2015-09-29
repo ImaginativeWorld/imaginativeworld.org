@@ -18,6 +18,10 @@
           		<div class="site-map-title">
                 <p><a class="bn-text" href="/products/shadhin-ovidhan/beta/">স্বাধীন অভিধান >> বেটা</a></p>
                 </div>
+          <p><a class="bn-text" href="/products/shadhin-ovidhan-android/">স্বাধীন অভিধান অ্যান্ড্রয়েড</a></p>
+          		<div class="site-map-title">
+                <p><a class="bn-text" href="/products/shadhin-ovidhan-android/beta/">স্বাধীন অভিধান  অ্যান্ড্রয়েড >> বেটা</a></p>
+                </div>
           <p><a class="bn-text" href="/products/shomoy-kothok/">সময় কথক</a></p>
           		<div class="site-map-title">
                 <p><a class="bn-text" href="/products/shomoy-kothok/beta/">সময় কথক >> বেটা</a></p>
